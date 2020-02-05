@@ -1,0 +1,7 @@
+.about {
+    background-image: url("../images/Header.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 60px;
+}

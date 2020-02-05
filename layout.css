@@ -1,11 +1,13 @@
-
 html {
-  background-color: rgb(44,55,71);
+  background-color: #33373D;
   font-family: 'Open-Sans';
-  color: red;
+  color: white;
+
+
+
 }
 body {
-  background-color: rgb(44,55,71);
+  background-color: #33373D;
   color: white;
 }
 
@@ -21,6 +23,7 @@ body {
   height: 300px;
   width: 100%;
   margin: auto 0px;
+
 
   background-image: url("../images/Footer.svg");
   background-position: center;

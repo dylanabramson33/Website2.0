@@ -1,0 +1,12 @@
+.siteTitle h1{
+  color: white;
+  transition: color 400ms ease;
+
+}
+.siteTitle:hover {
+  text-decoration: none;
+}
+.siteTitle:hover h1{
+  color: #598392;
+  text-decoration: none;
+}
