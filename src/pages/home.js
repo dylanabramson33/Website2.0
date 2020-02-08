@@ -4,7 +4,6 @@ import React from "react"
 import Layout from "../components/layout"
 import Box from "../components/Box"
 import SEO from "../components/seo"
-import evo from "../images/evo.png"
 import Img from "gatsby-image"
 import { Link, graphql } from "gatsby"
 import 'bootstrap/dist/css/bootstrap.min.css';
