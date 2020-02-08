@@ -77,7 +77,7 @@ function Header({siteTitle}) {
           fontWeight: 'bold',
           paddingLeft: '15px',
           paddingTop: '10px',
-          fontSize: '25px'
+      
 
 
         }}>

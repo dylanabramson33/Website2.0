@@ -1,6 +1,7 @@
 .siteTitle h1{
   color: white;
   transition: color 400ms ease;
+  font-size: 25px;
 
 }
 .siteTitle:hover {
@@ -13,8 +14,8 @@
 
 
 @media screen and (min-width: 200px) and (max-width: 650px){
-  .siteTitle {
-    font-size: 15;
+  .siteTitle h1 {
+    font-size: 15px;
   }
 
 
