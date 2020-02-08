@@ -10,3 +10,12 @@
   color: #598392;
   text-decoration: none;
 }
+
+
+@media screen and (min-width: 200px) and (max-width: 650px){
+  .siteTitle {
+    font-size: 15;
+  }
+
+
+}
