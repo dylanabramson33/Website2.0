@@ -43,7 +43,7 @@ const Project = ({data}) => {
                                   backgroundColor:'transparent',
                                   borderWidth: '1.5px'}}>
      <a style={{textAlign:'center', color:'black', textDecoration: 'none'}}
-     href={downloadLink}>
+     href={downloadLink.file.url}>
      Download Game (Mac Only)</a>
      </button>}
     {githubLink && <button style={{borderRadius: '5px',
