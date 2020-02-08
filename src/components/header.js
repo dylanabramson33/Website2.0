@@ -8,12 +8,12 @@ import './header.css'
 function Header({siteTitle}) {
 
   const [scroll, setScroll] = useState(0)
-
+  const [height, setHeight] = useState(0)
 
   useEffect(() => {
     document.addEventListener("scroll", () => {
         const scrollCheck = window.scrollY;
-        setScroll(scrollCheck/100);
+        setScroll(scrollCheck);
 
       })
   })
@@ -26,7 +26,7 @@ function Header({siteTitle}) {
       style={{
         textAlign: 'justify',
         position: 'fixed',
-        backgroundColor: `rgba(0,0,0,${scroll})`,
+        backgroundColor: `rgba(0,0,0,${(scroll)})`,
         width: '100%',
         zIndex: '6',
         top: 0

@@ -6,23 +6,23 @@ import "./Box.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function Box({ siteTitle }){
+function Box({ projectTitle, role, previewImage, title, shortDescription}){
 
 
 
     return (
       <div className="Box">
         <div className="projectImage">
-          <Image/>
+          <img style={{width: '200px',height: '165px', borderRadius: '10px'}} src={previewImage}/>
         </div>
         <div className="description">
-          <h1 > Evo </h1>
-          <h5> Role: AI/Core Mechanics </h5>
-          <p> STEM Video Game designed for second fifth graders. </p>
+          <h1 > {projectTitle} </h1>
+          <h5> Role: {role} </h5>
+          <p style={{paddigBottom:'3px'}}> {shortDescription} </p>
         </div>
       </div>
     )
 
 }
 
-export default Box
+export default Box;

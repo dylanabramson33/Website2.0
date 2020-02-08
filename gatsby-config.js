@@ -49,9 +49,16 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `backgrounds`,
-        path: `${__dirname}/src/bg`, // wherever background images are stored
+        path: `${__dirname}/src/bg`,
       },
-    }
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `ibirdjjzk7ze`,
+        accessToken: "bC7gr6_qiaIFebFbFxaJtUfga03JRKHcv8ogCbmLQmE",
+      }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

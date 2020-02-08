@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const AboutPage = () => (
 
   <Layout>
-  <div className="container">
+  <div className="container" style={{paddingTop: "150px",}}>
     <SEO title="About" />
     <div className="container about" style={{
         display: 'flex-grid',
@@ -18,7 +18,7 @@ const AboutPage = () => (
         maxHeight: '25em',
         textAlign : 'justify',
         margin: "auto",
-        marginTop: "150px",
+
         color: "white",
         height: "250px",
 
