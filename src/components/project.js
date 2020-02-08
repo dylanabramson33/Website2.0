@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import "../components/about.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import github from "../images/github.svg"
 import BackgroundSlider from 'gatsby-image-background-slider'
 
 
@@ -37,8 +38,21 @@ const Project = ({data}) => {
         {projectDescription.projectDescription}
     </p>
 
-    {downloadLink && <a style={{textAlign:'center'}}href={downloadLink.file.url}>Download Game (Mac Only)</a>}
-    {githubLink && <a style={{textAlign:'center'}}href={githubLink}>Github Link</a>}
+    {downloadLink && <button style={{borderRadius: '5px',
+                                  borderColor:'black',
+                                  backgroundColor:'transparent',
+                                  borderWidth: '1.5px'}}>
+     <a style={{textAlign:'center', color:'black', textDecoration: 'none'}}
+     href={downloadLink}>
+     Download Game (Mac Only)</a>
+     </button>}
+    {githubLink && <button style={{borderRadius: '5px',
+                                  borderColor:'black',
+                                  backgroundColor:'transparent',
+                                  borderWidth: '1.5px'}}>
+     <a style={{textAlign:'center', color:'black', textDecoration: 'none'}}
+     href={githubLink}><img style={{paddingBottom:'3px', marginRight:'15px', width:'20px'}} src={github}/>Code</a>
+     </button>}
 
 
 
