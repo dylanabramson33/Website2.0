@@ -51,13 +51,13 @@ function Header({siteTitle}) {
 
         }}>
         <div style={{padding: '15px'}}>
-        <Link fade to="/home"
+        <Link fade to="/projects"
         style={{
           color: `white`,
           textDecoration: `none`,
           marginRight: '20px',
 
-        }}> Portfolio </Link>
+        }}> Projects </Link>
         <Link fade to="/about/"
         style={{
           color: `white`,
@@ -77,7 +77,7 @@ function Header({siteTitle}) {
           fontWeight: 'bold',
           paddingLeft: '15px',
           paddingTop: '10px',
-      
+
 
 
         }}>
