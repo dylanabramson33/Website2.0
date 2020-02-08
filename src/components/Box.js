@@ -12,9 +12,9 @@ function Box({ projectTitle, role, previewImage, title, shortDescription}){
     return (
       <div className="Box">
         <div className="projectImage">
-          <img style={{width: '200px',height: '165px', borderRadius: '10px'}} src={previewImage}/>
+          <img style={{height: '176px', borderRadius: '10px'}} src={previewImage}/>
         </div>
-        <div className="description">
+        <div style={{color: 'white'}} className="description">
           <h1 > {projectTitle} </h1>
           <h5> Role: {role} </h5>
           <p style={{paddigBottom:'3px'}}> {shortDescription} </p>

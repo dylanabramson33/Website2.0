@@ -3,12 +3,10 @@ html {
   background-color: black;
   overflow-x: hidden;
   font-family: 'Open-Sans';
-  color: red;
 }
 body {
   overflow-x: hidden;
   position: relative;
-  background-color: rgb(44,55,71);
   color: white;
 }
 

@@ -27,11 +27,12 @@ const AboutPage = () => (
       <h1 style={{textAlign: 'center'}}> About </h1>
       <div style={{textAlign: 'center', }}>
       <p>
-      My name is Dylan Abramson and I'm a twenty-year-old developer
-     based in New Paltz, NY. I believe that despite some current and real examples to the contrary, technology can still help us achieve noble goals:
+      My name is Dylan Abramson and I'm a twenty-year-old developer based in New Paltz, NY.
+       Right now I'm a junior at Wesleyan University where I'm studying math and computer science.
+       I believe we can use technology to achieve noble goals:
 
       </p>
-      <h4 style={{color:'lightgray'}}>
+      <h4 style={{fontStyle:'italic', color:'black'}}>
     to tell stories, to enrich communities, and to teach new and challenging ideas.
       </h4>
       </div>
