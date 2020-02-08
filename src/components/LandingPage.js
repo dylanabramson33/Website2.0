@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React, {useRef} from 'react';
 import {use, useSpring, useTrail, animated} from 'react-spring';
-
+import resume from "../images/Abramson_Resume.pdf"
 
 import cloud from '../images/Cloud.svg'
 import github from '../images/github.svg'
@@ -32,8 +32,8 @@ function LandingPage() {
           <h1 style={{position: 'relative',fontSize: '50px', color: 'white',textAlign: 'center', top: '-145px'}}>   Lets Build Something </h1>
           </animated.div>
           <div style={{marginTop:'-50px'}}>
-          <button style={{borderRadius: '10px', fontFamily :'Open Sans', padding: '10px 30px'}}>
-            Resume
+          <button style={{backgroundColor:"white",textDecoration:'none', color:'black', borderRadius: '10px', fontFamily :'Open Sans', padding: '10px 30px'}}>
+            <a href={resume}> Resume </a>
           </button>
           </div>
           {trail.map(({ x, height, ...rest }, index) => (
