@@ -33,7 +33,7 @@ const AboutPage = () => (
 
       </p>
       <h4 style={{fontStyle:'italic', color:'black'}}>
-    to tell stories, to enrich communities, and to teach new and challenging ideas.
+      to tell stories, to enrich communities, and to teach new and challenging ideas.
       </h4>
       </div>
     </div>

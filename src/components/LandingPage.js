@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React, {useRef} from 'react';
 import {use, useSpring, useTrail, animated} from 'react-spring';
-import resume from "../images/Abramson_Resume.pdf"
+import resume from "../images/Resume_Abramson.pdf"
 
 import cloud from '../images/Cloud.svg'
 import github from '../images/github.svg'
@@ -32,7 +32,7 @@ function LandingPage() {
           <h1 style={{position: 'relative',fontSize: '50px', color: 'white',textAlign: 'center', top: '-160px'}}>   Lets Build Something </h1>
           </animated.div>
           <div style={{marginTop:'-50px'}}>
-          <button style={{backgroundColor:"white",borderRadius: '10px', fontFamily :'Open Sans', padding: '10px 30px'}}>
+          <button style={{backgroundColor:"white", borderRadius: '10px', fontFamily :'Open Sans', padding: '10px 30px'}}>
             <a style={{textDecoration:'none', color:'black'}} href={resume}> Resume </a>
           </button>
           </div>
