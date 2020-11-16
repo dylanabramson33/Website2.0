@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <div className="footer">
         <footer className = "container">
-          <p style={{position:"relative", textAlign:"center", paddingTop: '200px'}}> Copyright 2020 Dylan Abramson </p>
+          <p style={{position:"absolute", textAlign:"center", bottom: '0px', paddingTop: '200px'}}> Copyright 2020 Dylan Abramson </p>
         </footer>
         </div>
       </div>
