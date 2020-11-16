@@ -15,11 +15,9 @@ const Project = ({data}) => {
   return (
 
   <Layout>
-  <div style={{paddingTop: '100px'}}>
+  <div style={{paddingTop: '100px', height: '100%'}}>
     <SEO title="Evo" />
     <h1 style={{color: "white"}}> {title} </h1>
-
-
 
     <p style={{
       color: "white",
