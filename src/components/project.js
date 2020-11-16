@@ -59,8 +59,6 @@ const Project = ({data}) => {
   </div>
   </Layout>
 
-
-
 )
 }
 export default Project;

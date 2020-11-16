@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div style={{backgroundColor:"#8fd0e7", width:"100%", textAlign: "center"}}>
+    <div style={{backgroundColor:"#8fc3d6", width:"100%", textAlign: "center"}}>
       <Header siteTitle="dabramson.io" />
       <div>
         <main>{children}</main>
