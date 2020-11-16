@@ -32,7 +32,7 @@ function LandingPage() {
           <h1 style={{position: 'relative',fontSize: '50px', color: 'white',textAlign: 'center', top: '-160px'}}>   Lets Build Something </h1>
           </animated.div>
           <div style={{marginTop:'-50px'}}>
-          <button style={{backgroundColor:"white", borderRadius: '10px', fontFamily :'Open Sans', padding: '10px 30px'}}>
+          <button style={{backgroundColor:"white", borderColor:'lightgray', borderStyle: 'solid', borderRadius: '10px', fontFamily :'Open Sans', padding: '10px 30px'}}>
             <a style={{textDecoration:'none', color:'black'}} href={resume}> Resume </a>
           </button>
           </div>
