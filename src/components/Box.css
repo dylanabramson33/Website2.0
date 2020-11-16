@@ -2,9 +2,9 @@
 .Box {
   display:inline-flex;
 
-    -webkit-box-shadow:3px 1px 8px 7px rgba(0,0,0,0.39);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    3px 1px 8px 7px rgba(0,0,0,0.39);   /* Firefox 3.5 - 3.6 */
-  box-shadow: 3px 1px 8px 7px rgba(0,0,0,0.39);
+    -webkit-box-shadow:3px 1px 8px 7px rgba(0,0,0,0.19);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:  3px 1px 8px 7px rgba(0,0,0,0.19);   /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 1px 8px 7px rgba(0,0,0,0.19);
   height: 11em;
   margin-bottom:20px;
   margin-left: 20px;
