@@ -19,22 +19,15 @@ const Project = ({data}) => {
     <SEO title="Evo" />
     <h1 style={{color: "white"}}> {title} </h1>
 
-    <p style={{
-      color: "white",
-      marginLeft: 'auto',
-      marginRight: 'auto',
-      width: '350px',
-      textAlign: 'justify'}}>
-    </p>
-    <p style={{
+  
+    <div dangerouslySetInnerHTML={{ __html: projectDescription.projectDescription }} style={{
       color: "white",
       marginTop: "10px",
       marginLeft: 'auto',
       marginRight: 'auto',
       width: '350px',
       textAlign: 'left'}}>
-        {projectDescription.projectDescription}
-    </p>
+    </div>
 
     {downloadLink && <button style={{borderRadius: '5px',
                                   borderColor:'black',
