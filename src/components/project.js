@@ -1,11 +1,10 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import "../components/about.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import github from "../images/github.svg"
 import BackgroundSlider from 'gatsby-image-background-slider'
-
+import './layout.css';
 
 
 
@@ -20,12 +19,11 @@ const Project = ({data}) => {
     <h1 style={{color: "white"}}> {title} </h1>
 
   
-    <div dangerouslySetInnerHTML={{ __html: projectDescription.projectDescription }} style={{
+    <div className="project" dangerouslySetInnerHTML={{ __html: projectDescription.projectDescription }} style={{
       color: "white",
       marginTop: "10px",
       marginLeft: 'auto',
       marginRight: 'auto',
-      width: '450px',
       textAlign: 'left'}}>
     </div>
 
