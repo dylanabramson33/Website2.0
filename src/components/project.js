@@ -25,7 +25,7 @@ const Project = ({data}) => {
       marginTop: "10px",
       marginLeft: 'auto',
       marginRight: 'auto',
-      width: '350px',
+      width: '450px',
       textAlign: 'left'}}>
     </div>
 
